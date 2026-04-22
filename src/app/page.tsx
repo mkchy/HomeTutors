@@ -25,7 +25,11 @@ export default function Home() {
       <GuideBanner />
       <DegreeFormSection />
       <AppSection />
+<<<<<<< HEAD
       {/* <Footer /> */}
+=======
+      <Footer />
+>>>>>>> 7e2890cadc81f6f419d06148e4cd4bdcc2da314a
     </main>
   )
 }
