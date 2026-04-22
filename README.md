@@ -7,7 +7,7 @@ A pixel-perfect clone of the Educrat education platform, built with **Next.js 14
 ## 📁 Folder Structure
 
 ```
-educrat/
+hometutors/
 ├── public/                        # Static assets
 ├── src/
 │   ├── app/
@@ -41,7 +41,7 @@ Download and install from [nodejs.org](https://nodejs.org) (v18+ recommended).
 
 ```bash
 npx create-next-app@14 educrat --typescript --tailwind --app --src-dir --no-eslint
-cd educrat
+cd hometutors
 ```
 
 ### 3. Install extra dependencies
