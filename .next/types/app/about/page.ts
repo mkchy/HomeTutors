@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 // File: C:\Users\Manohar\Downloads\hometutors\src\app\about\page.tsx
-=======
-// File: C:\Users\Kktc\Downloads\hometutors\src\app\about\page.tsx
->>>>>>> 7e2890cadc81f6f419d06148e4cd4bdcc2da314a
 import * as entry from '../../../../src/app/about/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
