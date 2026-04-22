@@ -1,4 +1,4 @@
-# 🎓 Educrat — Next.js + Tailwind CSS Landing Page
+# 🎓 Home Tutors — Next.js + Tailwind CSS Landing Page
 
 A pixel-perfect clone of the Educrat education platform, built with **Next.js 14**, **TypeScript**, and **Tailwind CSS**.
 
