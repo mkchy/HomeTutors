@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #4F46E5;
+  --primary-dark: #1e1b4b;
+  --accent: #00E5A0;
+  --navy-dark: #0d0b2e;
+  --navy-mid: #1a1750;
+  --coral: #f87171;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+@layer utilities {
+  .animation-delay-200 {
+    animation-delay: 200ms;
+  }
+  .animation-delay-400 {
+    animation-delay: 400ms;
+  }
+  .animation-delay-600 {
+    animation-delay: 600ms;
+  }
+  .animation-delay-800 {
+    animation-delay: 800ms;
+  }
+  .animation-delay-1000 {
+    animation-delay: 1000ms;
+  }
+}
+
+/* Navbar */
+.nav-link {
+  @apply text-gray-300 hover:text-white transition-colors duration-200 text-sm font-medium flex items-center gap-1;
+}
+
+/* Hero waves */
+.hero-wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+/* Floating cards */
+.floating-card {
+  @apply bg-white rounded-2xl shadow-2xl p-4 flex items-center gap-3;
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Stat cards — intentionally empty; StatsSection.tsx handles its own layout */
+.stat-card {}
+
+/* Feature item */
+.feature-item {
+  @apply flex flex-col gap-3 p-6;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 3px;
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #00E5A0, #4F46E5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Animated underline */
+.animated-underline {
+  position: relative;
+  display: inline-block;
+}
+.animated-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--accent);
+  transition: width 0.3s ease;
+}
+.animated-underline:hover::after {
+  width: 100%;
+}
+
+/* Button styles */
+.btn-primary {
+  @apply bg-primary text-white px-6 py-3 rounded-lg font-semibold hover:bg-indigo-700 transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-lg;
+}
+
+.btn-outline {
+  @apply border-2 border-accent text-accent px-6 py-3 rounded-lg font-semibold hover:bg-accent hover:text-navy-dark transition-all duration-300 transform hover:-translate-y-0.5;
+}
+
+/* App download buttons */
+.app-btn {
+  @apply bg-navy-dark text-white flex items-center gap-3 px-6 py-3 rounded-xl hover:bg-navy-mid transition-all duration-300 hover:shadow-xl transform hover:-translate-y-0.5;
+}
