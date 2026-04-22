@@ -1,19 +1,14 @@
-<<<<<<< HEAD
-# 🎓 Educrat — Next.js + Tailwind CSS Landing Page
 =======
 # 🎓 Home Tutors — Next.js + Tailwind CSS Landing Page
 >>>>>>> 7e2890cadc81f6f419d06148e4cd4bdcc2da314a
 
-A pixel-perfect clone of the Educrat education platform, built with **Next.js 14**, **TypeScript**, and **Tailwind CSS**.
+A pixel-perfect clone of the Home Tutors education platform, built with **Next.js 14**, **TypeScript**, and **Tailwind CSS**.
 
 ---
 
 ## 📁 Folder Structure
 
 ```
-<<<<<<< HEAD
-educrat/
-=======
 hometutors/
 >>>>>>> 7e2890cadc81f6f419d06148e4cd4bdcc2da314a
 ├── public/                        # Static assets
@@ -48,9 +43,7 @@ Download and install from [nodejs.org](https://nodejs.org) (v18+ recommended).
 ### 2. Create the project
 
 ```bash
-npx create-next-app@14 educrat --typescript --tailwind --app --src-dir --no-eslint
-<<<<<<< HEAD
-cd educrat
+npx create-next-app@14 Home Tutors --typescript --tailwind --app --src-dir --no-eslint
 =======
 cd hometutors
 >>>>>>> 7e2890cadc81f6f419d06148e4cd4bdcc2da314a
