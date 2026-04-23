@@ -3,12 +3,16 @@
 A fully responsive and modern E-learning web application built with Next.js, React, and Tailwind CSS.
 This project delivers a premium UI/UX experience with smooth animations, structured layouts, and scalable architecture — suitable for real-world EdTech platforms.
 
+A pixel-perfect clone of the Home Tutors education platform, built with **Next.js 14**, **TypeScript**, and **Tailwind CSS**.
+>>>>>>> d65d05d6485b96a933b4e64ec7375845ba8f5d24
+
 ---
 
 ## 📁 Folder Structure
 
 ```
 home-tutors/
+>>>>>>> d65d05d6485b96a933b4e64ec7375845ba8f5d24
 ├── public/                        # Static assets
 ├── src/
 │   ├── app/
@@ -43,6 +47,7 @@ Download and install from [nodejs.org](https://nodejs.org) (v18+ recommended).
 ```bash
 npx create-next-app@14 hometutors --typescript --tailwind --app --src-dir --no-eslint
 cd hometutors
+>>>>>>> d65d05d6485b96a933b4e64ec7375845ba8f5d24
 ```
 
 ### 3. Install extra dependencies

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"/_not-found/page":"/_not-found","/api/contact/route":"/api/contact","/about/page":"/about","/pricing/page":"/pricing","/page":"/"}
+=======
+{"/_not-found/page":"/_not-found","/about/page":"/about","/page":"/","/pricing/page":"/pricing"}
+>>>>>>> d65d05d6485b96a933b4e64ec7375845ba8f5d24
