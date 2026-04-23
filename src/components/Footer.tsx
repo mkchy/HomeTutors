@@ -22,6 +22,7 @@ const courseLinks = [
 const socialLinks = [
   {
     title: 'Facebook',
+    href: 'https://www.facebook.com/',   // ← replace with your Facebook page URL
     hoverBg: '#1877F2',
     hoverShadow: '#1877F244',
     svg: (
@@ -32,6 +33,7 @@ const socialLinks = [
   },
   {
     title: 'X / Twitter',
+    href: 'https://twitter.com/',       // ← replace with your X/Twitter handle URL
     hoverBg: '#000000',
     hoverShadow: '#00000044',
     svg: (
@@ -42,6 +44,7 @@ const socialLinks = [
   },
   {
     title: 'Instagram',
+    href: 'https://www.instagram.com/', // ← replace with your Instagram profile URL
     hoverBg: '#E1306C',
     hoverShadow: '#E1306C44',
     svg: (
@@ -52,6 +55,7 @@ const socialLinks = [
   },
   {
     title: 'LinkedIn',
+    href: 'https://in.linkedin.com/in/mkchy', // ← replace with your LinkedIn page URL
     hoverBg: '#0A66C2',
     hoverShadow: '#0A66C244',
     svg: (
@@ -62,6 +66,7 @@ const socialLinks = [
   },
   {
     title: 'WhatsApp',
+    href: 'https://wa.me/919507819754',            // ← uses your phone number (91 = India code, no +)
     hoverBg: '#25D366',
     hoverShadow: '#25D36644',
     svg: (
@@ -72,6 +77,7 @@ const socialLinks = [
   },
   {
     title: 'YouTube',
+    href: 'https://www.youtube.com/', // ← replace with your YouTube channel URL
     hoverBg: '#FF0000',
     hoverShadow: '#FF000044',
     svg: (
@@ -201,8 +207,10 @@ export default function Footer() {
                 {socialLinks.map((social, i) => (
                   <a
                     key={i}
-                    href="#"
+                    href={social.href}
                     title={social.title}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="w-9 h-9 rounded-xl border flex items-center justify-center transition-all duration-300"
                     style={{ borderColor: '#e5e7eb', color: '#6b7280' }}
                     onMouseEnter={(e) => {

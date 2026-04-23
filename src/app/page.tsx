@@ -9,7 +9,6 @@ import FAQSection from '@/components/FAQSection'
 import GuideBanner from '@/components/GuideBanner'
 import DegreeFormSection from '@/components/DegreeFormSection'
 import AppSection from '@/components/AppSection'
-import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
@@ -25,7 +24,6 @@ export default function Home() {
       <GuideBanner />
       <DegreeFormSection />
       <AppSection />
-      <Footer />
     </main>
   )
 }

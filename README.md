@@ -1,13 +1,14 @@
-# 🎓 Educrat — Next.js + Tailwind CSS Landing Page
+# 🎓 Home Tutors — E-learning Platform
 
-A pixel-perfect clone of the Educrat education platform, built with **Next.js 14**, **TypeScript**, and **Tailwind CSS**.
+A fully responsive and modern E-learning web application built with Next.js, React, and Tailwind CSS.
+This project delivers a premium UI/UX experience with smooth animations, structured layouts, and scalable architecture — suitable for real-world EdTech platforms.
 
 ---
 
 ## 📁 Folder Structure
 
 ```
-educrat/
+home-tutors/
 ├── public/                        # Static assets
 ├── src/
 │   ├── app/
@@ -40,8 +41,8 @@ Download and install from [nodejs.org](https://nodejs.org) (v18+ recommended).
 ### 2. Create the project
 
 ```bash
-npx create-next-app@14 educrat --typescript --tailwind --app --src-dir --no-eslint
-cd educrat
+npx create-next-app@14 hometutors --typescript --tailwind --app --src-dir --no-eslint
+cd hometutors
 ```
 
 ### 3. Install extra dependencies
